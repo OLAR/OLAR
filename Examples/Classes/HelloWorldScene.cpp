@@ -35,8 +35,8 @@ CCScene* HelloWorld::scene()
 	
 	// Add image data of recognition targets.
 	// You can add multiple targets at the same time.
-	scene->AddTarget(OLARTarget::TargetWithPath("img01.db.png"));
-	scene->AddTarget(OLARTarget::TargetWithPath("img02.db.png"));
+	scene->AddTarget(OLARTarget::TargetWithPath("img01.qdb"));
+	scene->AddTarget(OLARTarget::TargetWithPath("img02.qdb"));
 	
 	// Add AR event listener that handles some AR events.
 	// See interface declaration of OLARSceneEventListener.
@@ -52,11 +52,10 @@ bool HelloWorld::init()
 {
     //////////////////////////////
     // 1. super init first
-    if ( !CCLayer::init() )
-    {
+    if ( !CCLayer::init() ){
         return false;
     }
-
+	
     /////////////////////////////
     // 2. add a menu item with "X" image, which is clicked to quit the program
     //    you may modify it.

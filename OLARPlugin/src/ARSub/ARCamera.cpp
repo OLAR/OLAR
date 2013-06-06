@@ -154,7 +154,7 @@ void ARCamera::SetTextures(uint32_t mainTex, uint32_t uvTex ){
 
 void ARCamera::UpdateTexture(){
 	LockBuffer();
-	unsigned char *yplane = buffers[1-activeIndex];
+	unsigned char *yplane = buffers[activeIndex];
 	unsigned char *uvplane = yplane + (captureImage->pitch*captureImage->height);
 	int w = captureImage->width;
 	int h = captureImage->height;

@@ -28,11 +28,14 @@ public:
 	bool   LoadData(void *data, const int length);
 	void   SetSize(float size);
 	void   SetFilterLevel(float filterLevel);
+	void   EnableRobustTracking(bool enable);
 	float  Width();
 	float  Height();
 	void*  Engine();
 	void   SetEngine(void *engine);
 	bool   IsSizeSpecified();
+	float  FilterLevel();
+	bool   IsRobustTrackingEnabled();
 	int    TargetId();
 	void*  TargetData();
 	OLARResult* LastResult();
