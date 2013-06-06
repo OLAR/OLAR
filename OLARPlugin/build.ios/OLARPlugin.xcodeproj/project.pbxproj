@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4A82CC7B176038BC00AED3B6 /* BuildPlugin */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4A82CC7E176038BC00AED3B6 /* Build configuration list for PBXAggregateTarget "BuildPlugin" */;
+			buildPhases = (
+				4A82CC7F176038C400AED3B6 /* ShellScript */,
+			);
+			dependencies = (
+				4A82CC8317603FC500AED3B6 /* PBXTargetDependency */,
+			);
+			name = BuildPlugin;
+			productName = BuildPlugin;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4A9C1B0C175DA7FA0008A588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9C1B0B175DA7FA0008A588 /* Foundation.framework */; };
+		4A9C1B3E175DA8DB0008A588 /* ARCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C1B20175DA8DB0008A588 /* ARCamera.mm */; };
+		4A9C1B40175DA8DB0008A588 /* ARCommon.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C1B23175DA8DB0008A588 /* ARCommon.mm */; };
+		4A9C1B41175DA8DB0008A588 /* ARDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C1B26175DA8DB0008A588 /* ARDecoder.mm */; };
+		4A9C1B42175DA8DB0008A588 /* ARDeviceCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C1B27175DA8DB0008A588 /* ARDeviceCamera.mm */; };
+		4A9C1B43175DA8DB0008A588 /* ARExternalCall.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C1B29175DA8DB0008A588 /* ARExternalCall.mm */; };
+		4A9C1B45175DA8DB0008A588 /* ARGLUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C1B2C175DA8DB0008A588 /* ARGLUtil.mm */; };
+		4A9C1B47175DA8DB0008A588 /* ARSimulatorCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C1B2E175DA8DB0008A588 /* ARSimulatorCamera.mm */; };
+		4A9C1B4A175DA8DB0008A588 /* OLARPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C1B36175DA8DB0008A588 /* OLARPlugin.cpp */; };
+		4A9C1B4B175DA8DB0008A588 /* OLARScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C1B37175DA8DB0008A588 /* OLARScene.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A82CC8217603FC500AED3B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A9C1B00175DA7FA0008A588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A9C1B07175DA7FA0008A588;
+			remoteInfo = OLARPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A9C1B06175DA7FA0008A588 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A9C1B08175DA7FA0008A588 /* OLARPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = OLARPlugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9C1B0B175DA7FA0008A588 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A9C1B1E175DA8DB0008A588 /* ARCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARCamera.cpp; sourceTree = "<group>"; };
+		4A9C1B1F175DA8DB0008A588 /* ARCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCamera.h; sourceTree = "<group>"; };
+		4A9C1B20175DA8DB0008A588 /* ARCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARCamera.mm; sourceTree = "<group>"; };
+		4A9C1B21175DA8DB0008A588 /* ARCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARCommon.cpp; sourceTree = "<group>"; };
+		4A9C1B22175DA8DB0008A588 /* ARCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCommon.h; sourceTree = "<group>"; };
+		4A9C1B23175DA8DB0008A588 /* ARCommon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARCommon.mm; sourceTree = "<group>"; };
+		4A9C1B24175DA8DB0008A588 /* ARConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARConfig.h; sourceTree = "<group>"; };
+		4A9C1B25175DA8DB0008A588 /* ARDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDecoder.h; sourceTree = "<group>"; };
+		4A9C1B26175DA8DB0008A588 /* ARDecoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARDecoder.mm; sourceTree = "<group>"; };
+		4A9C1B27175DA8DB0008A588 /* ARDeviceCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARDeviceCamera.mm; sourceTree = "<group>"; };
+		4A9C1B28175DA8DB0008A588 /* ARExternalCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARExternalCall.h; sourceTree = "<group>"; };
+		4A9C1B29175DA8DB0008A588 /* ARExternalCall.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARExternalCall.mm; sourceTree = "<group>"; };
+		4A9C1B2A175DA8DB0008A588 /* ARGLUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARGLUtil.cpp; sourceTree = "<group>"; };
+		4A9C1B2B175DA8DB0008A588 /* ARGLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGLUtil.h; sourceTree = "<group>"; };
+		4A9C1B2C175DA8DB0008A588 /* ARGLUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARGLUtil.mm; sourceTree = "<group>"; };
+		4A9C1B2E175DA8DB0008A588 /* ARSimulatorCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARSimulatorCamera.mm; sourceTree = "<group>"; };
+		4A9C1B36175DA8DB0008A588 /* OLARPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OLARPlugin.cpp; sourceTree = "<group>"; };
+		4A9C1B37175DA8DB0008A588 /* OLARScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OLARScene.cpp; sourceTree = "<group>"; };
+		4A9C1B9B175DAC6C0008A588 /* ARSub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARSub.h; sourceTree = "<group>"; };
+		4A9C1BA0175DB2F90008A588 /* ARPluginCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPluginCore.h; sourceTree = "<group>"; };
+		4A9C1BA1175DB2FA0008A588 /* OLARPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLARPlugin.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A9C1B05175DA7FA0008A588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9C1B0C175DA7FA0008A588 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A9C1AFF175DA7FA0008A588 = {
+			isa = PBXGroup;
+			children = (
+				4A9C1B19175DA8D00008A588 /* OLARPlugin */,
+				4A9C1B0A175DA7FA0008A588 /* Frameworks */,
+				4A9C1B09175DA7FA0008A588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A9C1B09175DA7FA0008A588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C1B08175DA7FA0008A588 /* OLARPlugin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A9C1B0A175DA7FA0008A588 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C1B0B175DA7FA0008A588 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A9C1B19175DA8D00008A588 /* OLARPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C1B1A175DA8DB0008A588 /* src */,
+			);
+			name = OLARPlugin;
+			sourceTree = "<group>";
+		};
+		4A9C1B1A175DA8DB0008A588 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C1BA0175DB2F90008A588 /* ARPluginCore.h */,
+				4A9C1BA1175DB2FA0008A588 /* OLARPlugin.h */,
+				4A9C1B1B175DA8DB0008A588 /* ARSub */,
+				4A9C1B36175DA8DB0008A588 /* OLARPlugin.cpp */,
+				4A9C1B37175DA8DB0008A588 /* OLARScene.cpp */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		4A9C1B1B175DA8DB0008A588 /* ARSub */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C1B9B175DAC6C0008A588 /* ARSub.h */,
+				4A9C1B1E175DA8DB0008A588 /* ARCamera.cpp */,
+				4A9C1B1F175DA8DB0008A588 /* ARCamera.h */,
+				4A9C1B20175DA8DB0008A588 /* ARCamera.mm */,
+				4A9C1B21175DA8DB0008A588 /* ARCommon.cpp */,
+				4A9C1B22175DA8DB0008A588 /* ARCommon.h */,
+				4A9C1B23175DA8DB0008A588 /* ARCommon.mm */,
+				4A9C1B24175DA8DB0008A588 /* ARConfig.h */,
+				4A9C1B25175DA8DB0008A588 /* ARDecoder.h */,
+				4A9C1B26175DA8DB0008A588 /* ARDecoder.mm */,
+				4A9C1B27175DA8DB0008A588 /* ARDeviceCamera.mm */,
+				4A9C1B2E175DA8DB0008A588 /* ARSimulatorCamera.mm */,
+				4A9C1B2A175DA8DB0008A588 /* ARGLUtil.cpp */,
+				4A9C1B2B175DA8DB0008A588 /* ARGLUtil.h */,
+				4A9C1B2C175DA8DB0008A588 /* ARGLUtil.mm */,
+				4A9C1B28175DA8DB0008A588 /* ARExternalCall.h */,
+				4A9C1B29175DA8DB0008A588 /* ARExternalCall.mm */,
+			);
+			path = ARSub;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A9C1B07175DA7FA0008A588 /* OLARPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A9C1B16175DA7FA0008A588 /* Build configuration list for PBXNativeTarget "OLARPlugin" */;
+			buildPhases = (
+				4A9C1B04175DA7FA0008A588 /* Sources */,
+				4A9C1B05175DA7FA0008A588 /* Frameworks */,
+				4A9C1B06175DA7FA0008A588 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OLARPlugin;
+			productName = OLARPlugin;
+			productReference = 4A9C1B08175DA7FA0008A588 /* OLARPlugin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A9C1B00175DA7FA0008A588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Qoncept;
+			};
+			buildConfigurationList = 4A9C1B03175DA7FA0008A588 /* Build configuration list for PBXProject "OLARPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A9C1AFF175DA7FA0008A588;
+			productRefGroup = 4A9C1B09175DA7FA0008A588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A9C1B07175DA7FA0008A588 /* OLARPlugin */,
+				4A82CC7B176038BC00AED3B6 /* BuildPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A82CC7F176038C400AED3B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "CONFIG=Release\n\nTARGET_NAME=$PROJECT_NAME\nLIB_NAME=\"$TARGET_NAME.a\"\nDST_I386=\"build/$CONFIG-iphonesimulator/$TARGET_NAME-i386.a\"\nDST_ARMV7=\"build/$CONFIG-iphoneos/$TARGET_NAME-armv7.a\"\nDST_ARMV7S=\"build/$CONFIG-iphoneos/$TARGET_NAME-armv7s.a\"\nDST_UB=\"build/$LIB_NAME\"\nBUILD_LOG=\"build/build.log\"\n\nif [ ! -d \"build\" ]; then\n    mkdir \"build\"\nfi\n\nXCODE_ARGS=\"-project $PROJECT_NAME.xcodeproj -target $TARGET_NAME\"\nxcodebuild $XCODE_ARGS -configuration $CONFIG -sdk iphonesimulator VALID_ARCHS=\"i386\" PRODUCT_NAME=\"$TARGET_NAME-i386\" >> \"$BUILD_LOG\"\nxcodebuild $XCODE_ARGS -configuration $CONFIG -sdk iphoneos VALID_ARCHS=\"armv7\" PRODUCT_NAME=\"$TARGET_NAME-armv7\"  >> \"$BUILD_LOG\"\nxcodebuild $XCODE_ARGS -configuration $CONFIG -sdk iphoneos VALID_ARCHS=\"armv7s\" PRODUCT_NAME=\"$TARGET_NAME-armv7s\"  >> \"$BUILD_LOG\"\n\nlipo -create -output $DST_UB $DST_I386 $DST_ARMV7 $DST_ARMV7S\ncp $DST_UB \"../plugins/iOS/\"\ncp ../src/*.h ../plugins/ #*/\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A9C1B04175DA7FA0008A588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9C1B3E175DA8DB0008A588 /* ARCamera.mm in Sources */,
+				4A9C1B40175DA8DB0008A588 /* ARCommon.mm in Sources */,
+				4A9C1B41175DA8DB0008A588 /* ARDecoder.mm in Sources */,
+				4A9C1B42175DA8DB0008A588 /* ARDeviceCamera.mm in Sources */,
+				4A9C1B43175DA8DB0008A588 /* ARExternalCall.mm in Sources */,
+				4A9C1B45175DA8DB0008A588 /* ARGLUtil.mm in Sources */,
+				4A9C1B47175DA8DB0008A588 /* ARSimulatorCamera.mm in Sources */,
+				4A9C1B4A175DA8DB0008A588 /* OLARPlugin.cpp in Sources */,
+				4A9C1B4B175DA8DB0008A588 /* OLARScene.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A82CC8317603FC500AED3B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A9C1B07175DA7FA0008A588 /* OLARPlugin */;
+			targetProxy = 4A82CC8217603FC500AED3B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A82CC7C176038BC00AED3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A82CC7D176038BC00AED3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A9C1B14175DA7FA0008A588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A9C1B15175DA7FA0008A588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A9C1B17175DA7FA0008A588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OLARPlugin.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					../../cocos2dx/cocos2dx,
+					../../cocos2dx/cocos2dx/include,
+					../../cocos2dx/cocos2dx/platform/ios,
+					../../cocos2dx/cocos2dx/kazmath/include,
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-DCC_TARGET_OS_IPHONE=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4A9C1B18175DA7FA0008A588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OLARPlugin.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					../../cocos2dx/cocos2dx,
+					../../cocos2dx/cocos2dx/include,
+					../../cocos2dx/cocos2dx/platform/ios,
+					../../cocos2dx/cocos2dx/kazmath/include,
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-DCC_TARGET_OS_IPHONE=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A82CC7E176038BC00AED3B6 /* Build configuration list for PBXAggregateTarget "BuildPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A82CC7C176038BC00AED3B6 /* Debug */,
+				4A82CC7D176038BC00AED3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A9C1B03175DA7FA0008A588 /* Build configuration list for PBXProject "OLARPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A9C1B14175DA7FA0008A588 /* Debug */,
+				4A9C1B15175DA7FA0008A588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A9C1B16175DA7FA0008A588 /* Build configuration list for PBXNativeTarget "OLARPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A9C1B17175DA7FA0008A588 /* Debug */,
+				4A9C1B18175DA7FA0008A588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A9C1B00175DA7FA0008A588 /* Project object */;
+}

@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4A71EDB1175DE97E002BA79A /* ARPluginCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPluginCore.h; sourceTree = "<group>"; };
+		4A71EDB5175DE97E002BA79A /* ARCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARCamera.cpp; sourceTree = "<group>"; };
+		4A71EDB6175DE97E002BA79A /* ARCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCamera.h; sourceTree = "<group>"; };
+		4A71EDB8175DE97E002BA79A /* ARCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARCommon.cpp; sourceTree = "<group>"; };
+		4A71EDB9175DE97E002BA79A /* ARCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCommon.h; sourceTree = "<group>"; };
+		4A71EDBB175DE97E002BA79A /* ARConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARConfig.h; sourceTree = "<group>"; };
+		4A71EDC1175DE97E002BA79A /* ARGLUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARGLUtil.cpp; sourceTree = "<group>"; };
+		4A71EDC2175DE97E002BA79A /* ARGLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGLUtil.h; sourceTree = "<group>"; };
+		4A71EDC6175DE97E002BA79A /* ARSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSub.h; sourceTree = "<group>"; };
+		4A71EDC9175DE97E002BA79A /* OLARPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OLARPlugin.cpp; sourceTree = "<group>"; };
+		4A71EDCA175DE97E002BA79A /* OLARPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLARPlugin.h; sourceTree = "<group>"; };
+		4A71EDCB175DE97E002BA79A /* OLARScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OLARScene.cpp; sourceTree = "<group>"; };
+		4A71EDDE175DEAB4002BA79A /* Application.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Application.mk; path = ../jni/Application.mk; sourceTree = "<group>"; };
+		4A71EDDF175DEAB4002BA79A /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Android.mk; path = ../jni/Android.mk; sourceTree = "<group>"; };
+		4A71EDE1175DED78002BA79A /* OLARActivity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OLARActivity.cpp; sourceTree = "<group>"; };
+		4A71EDE2175DED78002BA79A /* OLARActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLARActivity.h; sourceTree = "<group>"; };
+		4A71EDE5175DEF40002BA79A /* ARAndroidCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ARAndroidCamera.cpp; sourceTree = "<group>"; };
+		4A71EDE6175DEF40002BA79A /* ARAndroidCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAndroidCamera.h; sourceTree = "<group>"; };
+		4A9C1B0B175DA7FA0008A588 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4A71EDB0175DE97E002BA79A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4A71EDB1175DE97E002BA79A /* ARPluginCore.h */,
+				4A71EDE0175DED77002BA79A /* Android */,
+				4A71EDB2175DE97E002BA79A /* ARSub */,
+				4A71EDC9175DE97E002BA79A /* OLARPlugin.cpp */,
+				4A71EDCA175DE97E002BA79A /* OLARPlugin.h */,
+				4A71EDCB175DE97E002BA79A /* OLARScene.cpp */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		4A71EDB2175DE97E002BA79A /* ARSub */ = {
+			isa = PBXGroup;
+			children = (
+				4A71EDB5175DE97E002BA79A /* ARCamera.cpp */,
+				4A71EDB6175DE97E002BA79A /* ARCamera.h */,
+				4A71EDB8175DE97E002BA79A /* ARCommon.cpp */,
+				4A71EDB9175DE97E002BA79A /* ARCommon.h */,
+				4A71EDBB175DE97E002BA79A /* ARConfig.h */,
+				4A71EDC1175DE97E002BA79A /* ARGLUtil.cpp */,
+				4A71EDC2175DE97E002BA79A /* ARGLUtil.h */,
+				4A71EDE5175DEF40002BA79A /* ARAndroidCamera.cpp */,
+				4A71EDE6175DEF40002BA79A /* ARAndroidCamera.h */,
+				4A71EDC6175DE97E002BA79A /* ARSub.h */,
+			);
+			path = ARSub;
+			sourceTree = "<group>";
+		};
+		4A71EDE0175DED77002BA79A /* Android */ = {
+			isa = PBXGroup;
+			children = (
+				4A71EDE1175DED78002BA79A /* OLARActivity.cpp */,
+				4A71EDE2175DED78002BA79A /* OLARActivity.h */,
+			);
+			path = Android;
+			sourceTree = "<group>";
+		};
+		4A9C1AFF175DA7FA0008A588 = {
+			isa = PBXGroup;
+			children = (
+				4A9C1B19175DA8D00008A588 /* OLARPlugin */,
+				4A9C1B0A175DA7FA0008A588 /* Frameworks */,
+				4A9C1B09175DA7FA0008A588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A9C1B09175DA7FA0008A588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A9C1B0A175DA7FA0008A588 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C1B0B175DA7FA0008A588 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A9C1B19175DA8D00008A588 /* OLARPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				4A71EDDE175DEAB4002BA79A /* Application.mk */,
+				4A71EDDF175DEAB4002BA79A /* Android.mk */,
+				4A71EDB0175DE97E002BA79A /* src */,
+			);
+			name = OLARPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4A71EDDA175DE9BD002BA79A /* OLARPluginAndroid */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 4A71EDDB175DE9BE002BA79A /* Build configuration list for PBXLegacyTarget "OLARPluginAndroid" */;
+			buildPhases = (
+			);
+			buildToolPath = "./build-plugins.sh";
+			buildWorkingDirectory = ..;
+			dependencies = (
+			);
+			name = OLARPluginAndroid;
+			passBuildSettingsInEnvironment = 1;
+			productName = OLARPlugin;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		4A9C1B00175DA7FA0008A588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Qoncept;
+			};
+			buildConfigurationList = 4A9C1B03175DA7FA0008A588 /* Build configuration list for PBXProject "OLARPluginAndroid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A9C1AFF175DA7FA0008A588;
+			productRefGroup = 4A9C1B09175DA7FA0008A588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A71EDDA175DE9BD002BA79A /* OLARPluginAndroid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4A71EDDC175DE9BE002BA79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUGGING_SYMBOLS = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = OLARPluginAndroid;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A71EDDD175DE9BE002BA79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = OLARPluginAndroid;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A9C1B14175DA7FA0008A588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+			};
+			name = Debug;
+		};
+		4A9C1B15175DA7FA0008A588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A71EDDB175DE9BE002BA79A /* Build configuration list for PBXLegacyTarget "OLARPluginAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A71EDDC175DE9BE002BA79A /* Debug */,
+				4A71EDDD175DE9BE002BA79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A9C1B03175DA7FA0008A588 /* Build configuration list for PBXProject "OLARPluginAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A9C1B14175DA7FA0008A588 /* Debug */,
+				4A9C1B15175DA7FA0008A588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A9C1B00175DA7FA0008A588 /* Project object */;
+}

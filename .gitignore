@@ -1,4 +1,4 @@
-# Xcode
+# iOS setting
 .DS_Store
 build/
 *.pbxuser
@@ -16,3 +16,13 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+
+# Android setting
+bin/
+obj/
+gen/
+*.dex
+*.class
+
+android-sdk.conf
+
